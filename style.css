@@ -162,6 +162,7 @@
   
   .login__button {
     width: 60px;
+    transition-duration: 0.4s;
     height: 60px;
     padding: 20px;
     display: flex;
@@ -203,4 +204,9 @@
     background-size: cover;
     background-position: center;
     flex: 1;
+  }
+
+  .login__button:hover {
+    background-color: #ff264a;
+    color: white;
   }
